@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>해피포인트 해피페이 친구추천</title>
+  <meta name="description" content="해피포인트 해피페이 친구추천 코드를 확인하고 복사할 수 있는 간단한 안내 페이지입니다." />
+  <meta name="theme-color" content="#fff8fb" />
+
+  <meta property="og:title" content="해피포인트 해피페이 친구추천" />
+  <meta property="og:description" content="친구추천 코드를 입력하고 머니 가입 시 3천원 혜택을 확인해보세요." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <section class="card" aria-labelledby="page-title">
+      <div class="confetti confetti-1">✦</div>
+      <div class="confetti confetti-2">●</div>
+      <div class="confetti confetti-3">♥</div>
+      <div class="confetti confetti-4">✿</div>
+
+      <div class="gift-badge" aria-hidden="true">🎁</div>
+
+      <p class="eyebrow">HAPPYPOINT · HAPPYPAY</p>
+      <h1 id="page-title">3천원을 선물했어요<span class="gift-inline">🎁</span></h1>
+      <p class="subtitle">친구추천 코드를 입력하고 혜택을 받아보세요.</p>
+
+      <div class="code-panel">
+        <span class="code-label">친구추천 코드</span>
+        <div class="code-row">
+          <strong id="referralCode" class="code-value">8TYJQT2T</strong>
+          <button id="copyButton" class="copy-button" type="button" aria-label="친구추천 코드 복사">
+            <span class="copy-icon" aria-hidden="true">⧉</span>
+            <span id="copyText">복사하기</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="notice">
+        <span class="notice-icon" aria-hidden="true">❖</span>
+        <p>친구추천 코드를 입력하고 <strong>머니 가입</strong>하면 <strong>3천원</strong>을 지급해 드려요.</p>
+      </div>
+
+      <p class="footnote">혜택 조건과 지급 여부는 해피포인트/해피페이의 최신 이벤트 정책을 확인해주세요.</p>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite">추천코드가 복사됐어요!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
