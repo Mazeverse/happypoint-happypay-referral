@@ -1,5 +1,5 @@
 // 추천코드를 바꾸려면 아래 값만 수정하면 됩니다.
-const REFERRAL_CODE = "8TYJQT2T";
+const REFERRAL_CODE = "N380NP5Z";
 
 const referralCode = document.getElementById("referralCode");
 const copyButton = document.getElementById("copyButton");
